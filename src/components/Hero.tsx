@@ -128,13 +128,6 @@ export default function Hero() {
                   className="absolute inset-0 h-full w-full object-contain opacity-85 transition-transform duration-700 hover:scale-105"
                 />
 
-                {/* Laser scan lines sweeping down overlay */}
-                <div 
-                  className="absolute left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-indigo-400 to-transparent shadow-[0_0_10px_#4f46e5] pointer-events-none z-10" 
-                  style={{
-                    animation: 'sweep 3.5s linear infinite'
-                  }}
-                />
 
                 {/* Cyber HUD elements overlay */}
                 <div className="absolute inset-0 flex flex-col justify-between p-4 bg-gradient-to-t from-black/80 via-black/20 to-black/40 font-mono text-[9px] pointer-events-none">
