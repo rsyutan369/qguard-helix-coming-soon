@@ -1,0 +1,6 @@
+{
+  "name": "Qguard Helix",
+  "description": "An advanced cybersecurity platform engineered to protect organizations from today's threats and tomorrow's quantum risks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
