@@ -25,11 +25,11 @@ export default function Hero() {
       <div className="absolute -left-40 top-20 -z-10 h-96 w-96 rounded-full bg-indigo-100/30 blur-3xl" />
       <div className="absolute right-0 top-1/4 -z-10 h-[30rem] w-[30rem] rounded-full bg-blue-500/5 blur-3xl pointer-events-none" />
 
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-[90rem] px-4 sm:px-8 lg:px-12">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-center">
           
           {/* LEFT COLUMN: Texts, Barricades, Progress Bar, Newsletter Form */}
-          <div className="space-y-8 lg:col-span-7">
+          <div className="space-y-8 lg:col-span-5">
             
             {/* Headline and Barricade block */}
             <div className="space-y-4">
@@ -106,10 +106,10 @@ export default function Hero() {
           </div>
 
           {/* RIGHT COLUMN: Massive Smartphone/Tablet Interface */}
-          <div className="lg:col-span-5 h-full relative">
+          <div className="lg:col-span-7 h-full relative">
             
             {/* Modern bracket terminal frame casing representing industrial machinery */}
-            <div className="relative mx-auto max-w-md w-full scale-95 sm:scale-100 rounded-[2.5rem] border-8 border-slate-100 bg-white p-2 shadow-2xl shadow-indigo-100/50 overflow-hidden">
+            <div className="relative mx-auto max-w-full w-full scale-95 sm:scale-100 rounded-[2.5rem] border-8 border-slate-100 bg-white p-2 shadow-2xl shadow-indigo-100/50 overflow-hidden">
               
               {/* Glossy top sensor notch */}
               <div className="absolute top-2 left-1/2 -translate-x-1/2 h-4 w-32 rounded-full bg-slate-100 z-10 flex gap-2 items-center justify-center">
@@ -118,14 +118,14 @@ export default function Hero() {
               </div>
 
               {/* High-Fidelity display viewport container */}
-              <div className="relative h-[480px] w-full rounded-[2rem] border border-slate-150 bg-black overflow-hidden select-none">
+              <div className="relative h-[650px] md:h-[700px] w-full rounded-[2rem] border border-slate-150 bg-black overflow-hidden select-none">
                 
                 {/* The beautifully generated cyber image from AI Studio */}
                 <img
-                  src="/src/assets/images/qguard_under_construction_1780138360028.png"
+                  src="/src/assets/images/FINAL_UNDER_CONSTRUCTION.png"
                   alt="Qguard Helix Cyber Security Terminal Under Construction"
                   referrerPolicy="no-referrer"
-                  className="absolute inset-0 h-full w-full object-cover opacity-85 transition-transform duration-700 hover:scale-105"
+                  className="absolute inset-0 h-full w-full object-contain opacity-85 transition-transform duration-700 hover:scale-105"
                 />
 
                 {/* Laser scan lines sweeping down overlay */}
