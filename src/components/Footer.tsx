@@ -9,7 +9,7 @@ export default function Footer() {
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
-          
+
           {/* Left Block: Contact coordinates, URLs, socials separated by dividers */}
           <div className="flex flex-wrap items-center gap-y-4 gap-x-6 text-xs text-slate-500 font-mono">
             {/* Email contact */}
@@ -39,7 +39,7 @@ export default function Footer() {
             {/* Social handles matching circular indicators in reference */}
             <div className="flex items-center gap-3">
               <a
-                href="https://linkedin.com/company/qguardhelix"
+                href="https://linkedin.com/company/qguard-helix"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-7 w-7 items-center justify-center rounded-full border border-slate-250 bg-white text-slate-505 hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-650 transition-all shadow-sm"
@@ -49,7 +49,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://twitter.com/qguardhelix"
+                href="https://twitter.com/qguard-helix"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-7 w-7 items-center justify-center rounded-full border border-slate-250 bg-white text-slate-505 hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-650 transition-all shadow-sm"
@@ -69,7 +69,7 @@ export default function Footer() {
                 Building the Quantum-Secure Future.
               </span>
             </p>
-            
+
             <div className="flex items-center gap-1.5 text-[9px] font-mono text-slate-400">
               <ShieldAlert className="h-3 w-3 text-indigo-600/40" />
               <span>TLS V1.3 CODESIGN SECURE MATRIX CONNECTION</span>
