@@ -27,18 +27,18 @@ export default function Hero() {
 
       <div className="mx-auto max-w-[90rem] px-4 sm:px-8 lg:px-12">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-center">
-          
+
           {/* LEFT COLUMN: Texts, Barricades, Progress Bar, Newsletter Form */}
           <div className="space-y-8 lg:col-span-5">
-            
+
             {/* Headline and Barricade block */}
             <div className="space-y-4">
               <div className="flex flex-col sm:flex-row sm:items-center gap-4">
                 <div className="space-y-1">
                   <h1 className="font-sans font-black text-4xl sm:text-5xl text-slate-900 tracking-tight leading-none uppercase">
-                    Website is <br />
+                    Core Application<br />
                     <span className="bg-gradient-to-r from-indigo-600 via-blue-605 to-cyan-500 bg-clip-text text-transparent">
-                      Under Construction
+                      is Under Construction
                     </span>
                   </h1>
                 </div>
@@ -107,10 +107,10 @@ export default function Hero() {
 
           {/* RIGHT COLUMN: Massive Smartphone/Tablet Interface */}
           <div className="lg:col-span-7 h-full relative">
-            
+
             {/* Modern bracket terminal frame casing representing industrial machinery */}
             <div className="relative mx-auto max-w-full w-full scale-95 sm:scale-100 rounded-[2.5rem] border-8 border-slate-100 bg-white p-2 shadow-2xl shadow-indigo-100/50 overflow-hidden">
-              
+
               {/* Glossy top sensor notch */}
               <div className="absolute top-2 left-1/2 -translate-x-1/2 h-4 w-32 rounded-full bg-slate-100 z-10 flex gap-2 items-center justify-center">
                 <span className="h-1.5 w-1.5 rounded-full bg-indigo-505 animate-pulse" />
@@ -119,7 +119,7 @@ export default function Hero() {
 
               {/* High-Fidelity display viewport container */}
               <div className="relative h-[650px] md:h-[700px] w-full rounded-[2rem] border border-slate-150 bg-black overflow-hidden select-none">
-                
+
                 {/* The beautifully generated cyber image from AI Studio */}
                 <img
                   src="/src/assets/images/FINAL_UNDER_CONSTRUCTION.png"
@@ -131,7 +131,7 @@ export default function Hero() {
 
                 {/* Cyber HUD elements overlay */}
                 <div className="absolute inset-0 flex flex-col justify-between p-4 bg-gradient-to-t from-black/80 via-black/20 to-black/40 font-mono text-[9px] pointer-events-none">
-                  
+
                   {/* Top indicators */}
                   <div className="flex justify-between items-center bg-slate-950/60 p-2 rounded-lg border border-slate-900 backdrop-blur-sm mt-3">
                     <div className="flex gap-1.5 items-center">
@@ -144,13 +144,13 @@ export default function Hero() {
                   {/* Mid warning indicator */}
                   <div className="self-center flex flex-col items-center gap-1">
                     <div className="rounded border border-yellow-500/30 bg-yellow-950/20 px-3 py-1 animate-pulse backdrop-blur-sm text-yellow-400 font-bold">
-                       CRITICAL STAGE SYNCHRONIZATION
+                      CRITICAL STAGE SYNCHRONIZATION
                     </div>
                   </div>
 
                   {/* Bottom Console Overlays */}
                   <div className="space-y-2">
-                    
+
                     {/* Live network status logs ticker */}
                     <div className="rounded-lg border border-slate-900 bg-slate-950/80 p-2.5 space-y-1 backdrop-blur-sm">
                       <div className="flex justify-between text-slate-500">
