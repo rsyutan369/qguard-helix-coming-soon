@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Rocket, ShieldAlert, Cpu, Lock, HelpCircle, HardDrive } from 'lucide-react';
 import UnderConstructionBadge from './UnderConstructionBadge';
 import EmailSubscription from './EmailSubscription';
+import finalUnderConstructionImg from '../assets/images/FINAL_UNDER_CONSTRUCTION.png';
 
 export default function Hero() {
   const [loadPercentage, setLoadPercentage] = useState(85);
@@ -122,12 +123,11 @@ export default function Hero() {
 
                 {/* The beautifully generated cyber image from AI Studio */}
                 <img
-                  src="/src/assets/images/FINAL_UNDER_CONSTRUCTION.png"
+                  src={finalUnderConstructionImg}
                   alt="Qguard Helix Cyber Security Terminal Under Construction"
                   referrerPolicy="no-referrer"
                   className="absolute inset-0 h-full w-full object-contain opacity-85 transition-transform duration-700 hover:scale-105"
                 />
-
 
                 {/* Cyber HUD elements overlay */}
                 <div className="absolute inset-0 flex flex-col justify-between p-4 bg-gradient-to-t from-black/80 via-black/20 to-black/40 font-mono text-[9px] pointer-events-none">
