@@ -97,7 +97,7 @@ async function insertSubscriber(email: string, source: string) {
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = 3001;
 
   // Middleware for parsing JSON requests
   app.use(express.json());
